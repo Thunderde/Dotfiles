@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# colors for some commands
+alias ls="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+
+# bare repo
+alias config='/usr/bin/git --git-dir=${XDG_CONFIG_HOME}/dotfiles --work-tree=${HOME}'
+
+#Todo: more aliases below
+
